@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mis datos de contacto</title>
+</head>
+<body>
+    <h1>Mis datos por si me quieren contactar</h1>
+    <ul>
+        <li>Numero de teléfono: 153522000</li>
+        <li>Mail: francisco.varela.saravia@gmail.com</li>
+    </ul>
+    <hr>
+    <form action="mailto:info@bebesito.com" method="post" enctype="text/plain"> <!--mail to es una accion que abre el correo para enviar uno a la direccion descrita al lado de mailto, y post tranfiere toda la info escrita dentro de form al correo a enviar-->
+        <label>Tu nombre:</label>
+        <input type="text" name="TuNombre" value=""><br>
+        <label>Tu correo:</label>
+        <input type="email" name="TuCorreo" value=""><br>
+        <label>Tu mensaje</label>
+        <textarea name="TuMensaje" rows="10" cols="20"></textarea><br> <!-- permite poner un area de texto para un mensaje -->
+        <input type="submit" name="">
+
+    </form>
+</body>
+</html>
